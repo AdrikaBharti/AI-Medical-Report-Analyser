@@ -1,0 +1,6 @@
+Disease,Features_used,Required_fields,OOF_ROC_AUC,Threshold,Target_recall,Recall_at_threshold,Precision_at_threshold,Accuracy_at_threshold,Recall_at_0_5,Precision_at_0_5,Top_3_factors_example
+Diabetes,6,"Glucose, Age",0.8321,0.279,0.85,0.851,0.549,0.704,0.556,0.723,"num__Glucose, num__Pregnancies, num__BMI"
+Heart,10,"age, sex, chol",0.8746,0.536,0.85,0.858,0.8,0.803,0.868,0.789,"cat__cp_asymptomatic, num__oldpeak, num__thalch"
+Kidney,17,"sc, bu, hemo",0.9993,1.0,0.9,0.932,1.0,0.958,0.984,0.984,"num__sg, num__pc, num__bu"
+Liver,10,"Total_Bilirubin, ALT_SGPT, AST_SGOT",0.7447,0.493,0.85,0.852,0.749,0.691,0.847,0.751,"num__Total_Proteins, num__Albumin, num__Age"
+Anemia,8,"Hemoglobin, MCV",0.9923,0.896,0.85,0.852,0.983,0.931,0.951,0.954,"num__RBC, num__PCV_HCT, num__MCH"

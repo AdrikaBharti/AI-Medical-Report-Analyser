@@ -1,0 +1,9 @@
+Disease,Step,n_features,ROC_AUC
+Kidney,A. Report-only (17 features),17,0.9993
+Kidney,"B. Without sg, al (urinalysis markers)",15,0.9909
+Kidney,"C. Without sg, al, sc, hemo (core diagnostic panel)",13,0.9855
+Kidney,"D. Basic chemistry only (bgr, bu, sc, sod, pot, hemo)",6,0.9845
+Anemia,A. All 8 features,8,0.9923
+Anemia,B. Without Hemoglobin,7,0.9916
+Anemia,C. Without Hemoglobin + PCV_HCT,6,0.9881
+Anemia,"D. RBC indices only (MCV, MCH, MCHC, RBC)",4,0.9869

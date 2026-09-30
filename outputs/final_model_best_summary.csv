@@ -1,0 +1,6 @@
+Disease,Best_algorithm,Features_used,OOF_ROC_AUC,Threshold,Recall_at_threshold,Precision_at_threshold,Runner_up,Runner_up_AUC,Gap_to_runner_up
+Diabetes,Logistic Regression,6,0.8315,0.279,0.851,0.549,Random Forest,0.831,0.0005
+Heart,Logistic Regression,10,0.8752,0.536,0.858,0.8,Random Forest,0.8742,0.001
+Kidney,Random Forest,17,0.9996,0.971,0.924,1.0,XGBoost,0.9992,0.0004
+Liver,SVM,10,0.7454,0.513,0.857,0.755,Logistic Regression,0.7364,0.009
+Anemia,Logistic Regression,8,0.9929,0.852,0.864,0.983,SVM,0.9928,0.0001
